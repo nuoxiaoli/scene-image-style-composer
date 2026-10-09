@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.tmp
+*.bak
+# Do not commit personal input/output photos by default
+input/
+output/
+private/
