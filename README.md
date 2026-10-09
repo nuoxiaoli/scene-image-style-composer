@@ -6,6 +6,36 @@
 
 > This repository contains a **text-based creative direction Skill**, not a standalone photo editor or a pretrained image model. Generating the actual picture requires a compatible assistant with image-generation/editing capabilities.
 
+## Gallery / 四种风格实拍示例
+
+以下示例均由两张摄影作品分别经过四种模式生成，展示同一场景的不同视觉语言。**示例是 AI 生成的视觉参考，不代表照片像素级原样保留**；需要原照绝对保真时，应使用无损裁切与分区合成工作流。
+
+### 示例 A：林间古塔 · Pagoda among trees
+
+| 模式 1 · 场景撕口拼贴 | 模式 2 · 水墨画册明信片 |
+|:---:|:---:|
+| ![古塔——场景撕口拼贴](examples/gallery/pagoda-mode-1-zine.webp) | ![古塔——水墨明信片](examples/gallery/pagoda-mode-2-ink-postcard.webp) |
+| 顺着树冠与飞檐安排撕口，摄影渐变为同场景印刷纹理 | 原照在上、同场景淡墨重构在下 |
+
+| 模式 3 · 超现实流行拼贴 | 模式 4 · 第二世界摄影海报 |
+|:---:|:---:|
+| ![古塔——超现实拼贴](examples/gallery/pagoda-mode-3-surreal-pop.webp) | ![古塔——第二世界](examples/gallery/pagoda-mode-4-second-world.webp) |
+| 放大原图飞檐为唯一巨物，辅以平涂色块与弧形小元素 | 把树影理解成可拉开的帘幕，小人和原图结构产生互动 |
+
+### 示例 B：晨雾孤舟 · Boat on a misty lake
+
+| 模式 1 · 场景撕口拼贴 | 模式 2 · 水墨画册明信片 |
+|:---:|:---:|
+| ![雾湖——场景撕口拼贴](examples/gallery/fog-lake-mode-1-zine.webp) | ![雾湖——水墨明信片](examples/gallery/fog-lake-mode-2-ink-postcard.webp) |
+| 山脊、雾气与水面反射成为自然撕口及印刷过渡结构 | 保留孤舟与远山布局，下半区用柔和水墨归纳空间 |
+
+| 模式 3 · 超现实流行拼贴 | 模式 4 · 第二世界摄影海报 |
+|:---:|:---:|
+| ![雾湖——超现实拼贴](examples/gallery/fog-lake-mode-3-surreal-pop.webp) | ![雾湖——第二世界](examples/gallery/fog-lake-mode-4-second-world.webp) |
+| 一艘来自原图的巨舟漂浮在几何色块之间 | 把晨雾想象成一块可掀开的薄毯，纸面留白作为另一世界 |
+
+> 预览图均经过 WebP 压缩，以减轻 GitHub 页面加载负担。仅展示已生成的风格结果，不包含原始摄影文件。图像示例用于说明风格，并非作为 Skill 运行时的参考资产。
+
 ## Four modes / 四种模式
 
 | Mode | 名称 | 主要特点 | 默认画幅 |
